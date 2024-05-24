@@ -1,0 +1,16 @@
+#Iniciar el Repositorio:
+git init
+
+#Añadir un repositorio remoto:
+git remote add origin http://rutaGIT
+
+#Añadir cambios a mi repositorio
+git add folder/folder/file.extension
+git add .
+
+#Añadir comentarios
+git commit -m "cambios en mi branch"
+
+#Subir cambios
+git push origin rama
+
