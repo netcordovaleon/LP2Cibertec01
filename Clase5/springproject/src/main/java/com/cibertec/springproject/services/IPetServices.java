@@ -1,14 +1,14 @@
 package com.cibertec.springproject.services;
 
 import com.cibertec.springproject.model.Pet;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 
 public interface IPetServices {
     List<Pet> GetAllPets();
-    Optional<Pet> GetById(int id);
     Pet SavePet(Pet entity);
+    Pet FindPetById(int id);
     List<Pet> SearchPets(String name);
 }

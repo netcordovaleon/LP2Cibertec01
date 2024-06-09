@@ -17,36 +17,40 @@
 		<java.version>22</java.version>
 	</properties>
 	<dependencies>
+
+		<!-- CONFIGURACION QUE INDICA QUE ES UN PROYECTO WEB (REST) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- HERRAMIENTA DE DESARROLLO QUE PERMITE REDUCIR CODIGO (GET,SET, CONSTRUCTRES) -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<!-- PRUEBAS UNITARIAS (UnitTesting) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+		<!-- PARA TRABAJAR CON ORM (JPA) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>3.2.0</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+		<!-- ESPECIFICAR LA BD => SQL Server -->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<version>12.6.2.jre11</version>
 		</dependency>
-
 
 
 
