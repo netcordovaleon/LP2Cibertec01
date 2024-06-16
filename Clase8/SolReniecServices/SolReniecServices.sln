@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ReniecServices", "ReniecServices\", "{B83837F4-D9E4-4103-81AF-697352C38E27}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55547"
+		Debug.AspNetCompiler.PhysicalPath = "ReniecServices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55547\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55547"
+		Release.AspNetCompiler.PhysicalPath = "ReniecServices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55547\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55547"
+		SlnRelativePath = "ReniecServices\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B83837F4-D9E4-4103-81AF-697352C38E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83837F4-D9E4-4103-81AF-697352C38E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F495175-20C6-4A5D-90DC-D505A02272B3}
+	EndGlobalSection
+EndGlobal

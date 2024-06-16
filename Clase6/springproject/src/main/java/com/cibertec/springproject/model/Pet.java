@@ -7,8 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Optional;
-
 //ESTRUCTURAS
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,7 +14,6 @@ import java.util.Optional;
 @Setter
 @Entity
 public class Pet {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
@@ -24,10 +21,4 @@ public class Pet {
     private int Age;
     private String Color;
     private boolean Status;
-    private double Weight;
-    @Column(nullable = true)
-    private  double Height;
-    @ManyToOne
-    @JoinColumn(name = "client_id")
-    private Client Client;
 }

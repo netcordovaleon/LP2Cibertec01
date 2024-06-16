@@ -6,7 +6,6 @@ import com.cibertec.springproject.services.IPetServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,6 @@ import java.util.Optional;
 
 // LOGICA DE NEGOCIO (VALIDACIONES; CONVERTIR OBJETOS, PROCESAR INFORMACION)
 @Service
-@Qualifier("PetServices")
 public class PetServices implements IPetServices {
 
     IPetRepository _petRepository;

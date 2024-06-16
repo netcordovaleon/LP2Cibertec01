@@ -13,11 +13,16 @@ import java.util.List;
 @RestController
 public class PetController {
 
-
+    /*
+    * Consultar => GET
+    * Grabar => POST
+    * Actualizar => PUT(*) / PATCH
+    * Eliminar => DELETE
+    * */
     IPetServices petServices;
 
     @Autowired
-    public PetController(@Qualifier("PetServices") IPetServices petServices) {
+    public PetController(@Qualifier("original")IPetServices petServices) {
         this.petServices=petServices;
     }
 
