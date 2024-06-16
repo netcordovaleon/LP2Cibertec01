@@ -1,5 +1,6 @@
 package com.cibertec.springproject.services.Impl;
 
+import com.cibertec.springproject.client.GetPersonInformationByDniResponse;
 import com.cibertec.springproject.dto.ClientAndPetDTO;
 import com.cibertec.springproject.model.Client;
 import com.cibertec.springproject.model.Pet;
@@ -61,5 +62,10 @@ public class ClientServices  implements IClientServices {
         });
 
         return  clientSaved;
+    }
+
+    @Override
+    public GetPersonInformationByDniResponse GetClientByDNI(String dni) {
+        return null;
     }
 }
