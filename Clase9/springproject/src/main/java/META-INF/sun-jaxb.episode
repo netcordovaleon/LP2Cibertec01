@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.06.21 a las 04:23:44 PM PET 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.cibertec.springproject.client"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:GetPersonInformationByDni">
+                  
+            <class ref="com.cibertec.springproject.client.GetPersonInformationByDni"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetPersonInformationByDniResponse">
+                  
+            <class ref="com.cibertec.springproject.client.GetPersonInformationByDniResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://schemas.datacontract.org/2004/07/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.cibertec.springproject.client"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:PersonaModel">
+                  
+            <class ref="com.cibertec.springproject.client.PersonaModel"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

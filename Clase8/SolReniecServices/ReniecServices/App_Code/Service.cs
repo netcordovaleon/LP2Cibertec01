@@ -15,6 +15,11 @@ public class Service : IService
 
     public Service()
     {
+
+        RefJava.CountriesPortClient x = new RefJava.CountriesPortClient ();
+
+        x.getCountry(new RefJava.getCountryRequest());
+
         list.Add(new PersonaModel()
         {
             Id = 1,

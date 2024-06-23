@@ -1,0 +1,8 @@
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\bin\Debug\AppConsoleClient.exe.config
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\bin\Debug\AppConsoleClient.exe
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\bin\Debug\AppConsoleClient.pdb
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\obj\Debug\AppConsoleClient.csproj.AssemblyReference.cache
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\obj\Debug\AppConsoleClient.csproj.SuggestedBindingRedirects.cache
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\obj\Debug\AppConsoleClient.csproj.CoreCompileInputs.cache
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\obj\Debug\AppConsoleClient.exe
+C:\lcordova\cibertec\lp2\LP2Cibertec01\Clase8\SolReniecServices\AppConsoleClient\obj\Debug\AppConsoleClient.pdb
