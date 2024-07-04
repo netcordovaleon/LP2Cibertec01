@@ -1,0 +1,11 @@
+version: "3.1"
+services:   
+  backend:
+    container_name: backend_test_2
+    build: ./BackEnd2/demo
+    ports:
+      - "8082:8082"
+    networks:
+      - fullstack2
+networks:
+  fullstack2:

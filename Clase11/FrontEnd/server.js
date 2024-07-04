@@ -8,10 +8,14 @@ const router = express.Router();
 
 
 router.get('/' , function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/miPagina/index.html'));
 });
 
-app.use('/front', express.static(path.join(__dirname, '')))
+router.post('/persona' , function(req, res) {
+    res.json({ mensaje : "todo bien" })
+});
+
+app.use('/front', express.static(path.join(__dirname, 'miPagina')))
 
 app.use('/', router);
 app.listen(3000);
